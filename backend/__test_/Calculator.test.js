@@ -6,7 +6,7 @@ describe("Calculator class", () => {
   });
 
   it("Subtracts two numbers correctly", () => {
-    expect(Calculator.subtract(3, 3)).toBe(0);
+    expect(Calculator.subtract(2, 2)).toBe(0);
   });
 
   it("Multiplies two numbers correctly", () => {
