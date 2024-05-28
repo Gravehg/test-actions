@@ -2,7 +2,7 @@ const Calculator = require("../Calculator");
 
 describe("Calculator class", () => {
   it("Adds two numbers correctly", () => {
-    expect(Calculator.add(3, 3)).toBe(6);
+    expect(Calculator.add(3, 4)).toBe(6);
   });
 
   it("Subtracts two numbers correctly", () => {
